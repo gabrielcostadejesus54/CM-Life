@@ -1,0 +1,79 @@
+h1, h2, p{
+    text-align: center;
+}
+
+.nav-especialidades {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.nav-especialidades ul{
+    list-style-type: none;
+}
+
+.nav-especialidades ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-especialidades ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-bottom: 3px solid #00CAD1;
+}
+
+.especialidade p{
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wraper-especialidade{
+    display: flex;
+    margin: 50px 0;
+}
+
+.wraper-especialidade img{
+    width: 30%;
+}
+
+table{
+    width: 70%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table thead{
+    background-color: #00CAD1;
+    
+}
+
+thead th{
+    padding: 10px;
+    color: white;
+}
+
+table tbody tr:nth-of-type(odd){
+    background-color: #CDCDCD;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: #F1F1F1;
+}
+
+table tbody tr td{
+    padding: 20px 0 20px 10px;
+}
+
+@media screen and (max-width: 768px){
+    .wraper-especialidade img{
+        display: none;
+    }
+
+    table{
+        width: 100%;
+    }
+}
+
+
